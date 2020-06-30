@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1920px) {
+  .header-main {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 67px;
+    text-align: center;
+    padding: 5%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header-main {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding: 3%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header-main {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 10px;
+    text-align: center;
+    padding: 1%;
+  }
+}
+
+del {
+  text-decoration-line: none;
+  text-decoration-color: #C4001D;
+  text-decoration-style: solid;
+  text-decoration-width: auto;
+  color: #808080;
+  background-image: url("src/assets/images/cross-red.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+del::selection {
+  color: cornflowerblue;
+}
